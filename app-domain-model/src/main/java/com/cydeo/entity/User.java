@@ -1,14 +1,11 @@
 package com.cydeo.entity;
 
-import com.cydeo.enums.Gender;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.Where;
-
 import javax.persistence.*;
+import com.cydeo.enums.Gender;
 
 @NoArgsConstructor
 @Getter

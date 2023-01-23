@@ -1,8 +1,7 @@
 package com.cydeo.dto;
 
 import com.cydeo.enums.Gender;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 
 @NoArgsConstructor

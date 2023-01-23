@@ -2,6 +2,7 @@ package com.cydeo.dto;
 
 import com.cydeo.enums.Status;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.cydeo.enums.Status;
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
 

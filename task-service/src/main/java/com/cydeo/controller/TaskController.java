@@ -47,7 +47,7 @@ public class TaskController {
 
     @PutMapping
     public ResponseEntity<ResponseWrapper> updateTask(@RequestBody TaskDTO taskDTO){
-       taskService.update(taskDTO);
+        taskService.update(taskDTO);
         return ResponseEntity.ok(new ResponseWrapper("User is successfully updated",HttpStatus.OK));
     }
 

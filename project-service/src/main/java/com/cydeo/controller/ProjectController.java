@@ -54,8 +54,8 @@ public class ProjectController {
     @GetMapping("/details/{userName}")
     public ResponseEntity<ResponseWrapper> readAllProjectDetails(@PathVariable("userName") String userName) throws ProjectServiceException {
 
-            List<ProjectDTO> projectDTOs = projectService.listAllProjectDetails(userName);
-            return ResponseEntity.ok(new ResponseWrapper("Projects are retrieved with details",projectDTOs,HttpStatus.OK));
+        List<ProjectDTO> projectDTOs = projectService.listAllProjectDetails(userName);
+        return ResponseEntity.ok(new ResponseWrapper("Projects are retrieved with details",projectDTOs,HttpStatus.OK));
 
     }
 

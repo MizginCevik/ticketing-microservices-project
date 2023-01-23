@@ -6,6 +6,7 @@ import com.cydeo.dto.UserResponseDTO;
 import com.cydeo.entity.Project;
 import com.cydeo.entity.User;
 import com.cydeo.enums.Status;
+
 import com.cydeo.exception.ProjectServiceException;
 import com.cydeo.repository.ProjectRepository;
 import com.cydeo.service.ProjectService;
@@ -108,7 +109,6 @@ public class ProjectServiceImpl implements ProjectService {
     public List<ProjectDTO> listAllProjectDetails(String userName) throws ProjectServiceException {
 
         UserResponseDTO userResponseDto = userClientService.getUserDTOByUserName(userName);
-
         UserDTO user = userResponseDto.getData();
 
         if(user != null){
