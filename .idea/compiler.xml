@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="app-client-management" />
         <module name="app-domain-model" />
+        <module name="gateway-service" />
+        <module name="app-client-management" />
         <module name="task-service" />
         <module name="user-service" />
         <module name="project-service" />
@@ -20,9 +21,10 @@
       <module name="app-client-management" options="-parameters" />
       <module name="app-domain-model" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="task-service" options="-parameters" />
-      <module name="ticketing-microservices-project" options="" />
+      <module name="ticketing-microservices-project" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
