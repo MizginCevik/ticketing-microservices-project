@@ -24,7 +24,7 @@
       <module name="gateway-service" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="task-service" options="-parameters" />
-      <module name="ticketing-microservices-project" options="-parameters" />
+      <module name="ticketing-microservices-project" options="" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
